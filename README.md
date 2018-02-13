@@ -14,9 +14,11 @@ Oh-My-Zsh adalah open source untuk mengelola konfigurasi ZSH dengan fungsi yang 
 
 ## 4. Cara instalasi Oh My Zsh
 Via Curl
+
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 Via Wget
+
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
 ## 5. Cara mengganti tema Zsh (menggunakan Oh My Zsh)
@@ -24,19 +26,16 @@ Via Wget
 [ disini](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
 
 * Buka dan edit file .zshrc
-```
-nano .zshrc
-```
+`nano .zshrc`
 
 * Isi tema sesuai keinginan dengan mengubah ZSH_THEME pada file .zshrc
-```
-ZSH_THEME = "<isi nama tema>"
-```
+
+`ZSH_THEME = "<isi nama tema>"`
+
 * Simpan file .zshrc
 * Ketikan perintah 
-```
-source .zshrc
-```
+
+`source .zshrc`
 
 ## 6. Fitur-fitur Zsh yang tidak tersedia di Bash
 1. Auto correct
