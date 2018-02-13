@@ -26,6 +26,7 @@ Via Wget
 [ disini](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
 
 * Buka dan edit file .zshrc
+
 `nano .zshrc`
 
 * Isi tema sesuai keinginan dengan mengubah ZSH_THEME pada file .zshrc
